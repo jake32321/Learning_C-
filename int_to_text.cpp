@@ -11,7 +11,7 @@ int main() {
     int n;
     cin>>n;
     
-    if(1<=n<=9){
+	if(n<=9){
         if(n==1)
             cout<<"one"<<endl;
         if(n==2)
