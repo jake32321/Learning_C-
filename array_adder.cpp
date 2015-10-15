@@ -7,11 +7,11 @@ using namespace std;
 
 
 int main() {
-    //Scans a given array to find the sum 
+    //Scans a given array to find the sum
     int sum=0, n;
     int array[100];
     scanf("%d", &n);
-    
+
     //Adds elements to the sum
     for(int i=0; i<n; i++){
         scanf("%d", &array[i]);
@@ -21,4 +21,3 @@ int main() {
     printf("%d", sum);
     return 0;
 }
-

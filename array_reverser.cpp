@@ -5,13 +5,15 @@
 #include <algorithm>
 using namespace std;
 
-
+/*
+File reverses the element's possition
+in the array.
+*/
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
-    
-    int n; 
+
+    int n;
     cin>>n;
-    
+
     int numbers[n];
     if(n<1||n>1000)
         return -1;
@@ -23,4 +25,3 @@ int main() {
     }
     return 0;
 }
-

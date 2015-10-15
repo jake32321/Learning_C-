@@ -4,10 +4,12 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
-
+/*
+Short cpp file to find the distance between two points.
+*/
 
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+
     int in;
     scanf("%d", &in);
     for(int i = 0; i<in; i++){
@@ -19,7 +21,3 @@ int main() {
     }
     return 0;
 }
-
-
-
-
